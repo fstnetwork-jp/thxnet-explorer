@@ -1,6 +1,14 @@
 {
-  "local": {
-    "substrateRpcUrlArray": ["ws://127.0.0.1:9944"],
-    "explorerWsUrlArray": ["ws://127.0.0.1:8000/graphql-ws"]
+  "rootchain": {
+    "substrateRpcUrlArray": ["wss://node.testnet.thxnet.org/archive1/ws"],
+    "explorerWsUrlArray": ["wss://explorer.testnet.thxnet.org/graphql-ws"]
+  },
+  "thx!": {
+    "substrateRpcUrlArray": ["wss://node.thx.testnet.thxnet.org/archive1/ws"],
+    "explorerWsUrlArray": ["wss://explorer.thx.testnet.thxnet.org/graphql-ws"]
+  },
+  "lmt": {
+    "substrateRpcUrlArray": ["wss://node.lmt.testnet.thxnet.org/archive1/ws"],
+    "explorerWsUrlArray": ["wss://explorer.lmt.testnet.thxnet.org/graphql-ws"]
   }
 }
